@@ -1,0 +1,96 @@
+/* Estilos generales */
+body {
+    background-image: url(''); /* Imagen de fondo */
+    background-size: cover;
+    color: #000000; /* Color de texto */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del logo */
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: auto;
+}
+
+/* Estilos del header y la barra de navegación */
+header {
+    background-color: #006400; /* Verde oscuro para el header */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Secciones */
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Tabla de precios */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #006400; /* Verde oscuro */
+    color: #ffffff;
+}
+
+/* Estilos de botones */
+.boton {
+    background-color: #28a745; /* Verde claro */
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.boton:hover {
+    background-color: #218838; /* Verde más oscuro al pasar el mouse */
+}
+
+/* Footer */
+footer {
+    background-color: #006400; /* Verde oscuro */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Ajustes de medios para dispositivos móviles */
+@media (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    table {
+        font-size: 14px;
+    }
+}
