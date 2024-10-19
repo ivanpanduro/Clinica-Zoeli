@@ -41,6 +41,22 @@ section {
     border-radius: 10px;
     text-align: center;
 }
+#contacto{
+    color: #fff;
+    background-color: #006400;
+    text-align: left;
+}
+#Horario{
+    text-align: center;
+    
+}
+#redes{
+    
+    color: #fff;
+    background-color: #006400;
+    text-align: right;
+   
+}
 
 /* Tabla de precios */
 table {
@@ -78,7 +94,7 @@ th {
 /* Footer */
 footer {
     background-color: #006400; /* Verde oscuro */
-    color: #ffffff;
+    color: #fff;
     text-align: center;
     padding: 10px 0;
 }
